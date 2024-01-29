@@ -46,7 +46,7 @@ const Form = () => {
         alert('Please fill all Professor ID forms')
         return
       }
-      endpoints.push(`http://localhost:3001/professor/${forms[i].id}/${forms[i].classNum}`)
+      endpoints.push(`https://scrape-my-professor-0hgy.onrender.com/professor/${forms[i].id}/${forms[i].classNum}`)
     }
     const allData = await parallelCall(endpoints)
     setSubmittedData(allData) 
