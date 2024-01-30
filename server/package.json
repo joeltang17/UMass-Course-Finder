@@ -25,7 +25,6 @@
   "contributors": [],
   "scripts": {
     "start": "node src/app.js",
-    "build": "bash render-build.sh ",
     "test": ""
   },
   "dependencies": {
